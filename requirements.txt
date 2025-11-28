@@ -1,0 +1,16 @@
+langgraph
+langchain
+langchain-community
+tavily-python
+markdown2
+python-dotenv
+rich
+httpx
+beautifulsoup4
+lxml
+groq
+gradio
+langgraph-checkpoint-sqlite
+reportlab
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
