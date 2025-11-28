@@ -3,8 +3,11 @@ Goal: Build two agents: a research agent and a summary agent
 ○      Summary agent converts findings into executive summary
 
 Run the following commands:
-If project there in github, git clone <repository>
+ 
+git clone https://github.com/muskanrath30/Mini_Projects.git
+
 pip install -r requirements.txt
+
 python app.py
 
 Please check the output in output folder
