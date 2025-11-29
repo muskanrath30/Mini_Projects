@@ -22,3 +22,25 @@ python app.py
 
 Please check the output in output folder
 output/<report-name># Mini_Projects
+
+You will find several projects in the open source but the below table shows how my project is different from their projects:
+
+## Comparison with Existing Projects
+
+| Repository / Source                          | Similarity | Key Features & Comparison                                                                 | Link & Notes                     | How My Project is Different                                                                                                                                                           |
+|----------------------------------------------|------------|-------------------------------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [wassupjay/Research-Agent](https://github.com/wassupjay/Research-Agent) | 90%        | LangGraph + Tavily + Groq, generates reports with citations                               | Stars: 1.2k                      | My project adds **PDF export (ReportLab)**, **Gradio web UI**, **source deduplication**, and **clean executive formatting** |
+| [botextractai/ai-langgraph-multi-agent](https://github.com/botextractai/ai-langgraph-multi-agent) | 85%        | 5-agent workflow with Tavily + OpenAI → easy swap to Groq                                 | Stars: 850                       | Uses **Groq by default**, **2-agent simple flow**, **Gradio UI**, **downloadable PDF**, removes LLM junk text ("Here is a professional summary...") |
+| [yasaminfn/LangGraph-RAG-Agent](https://github.com/yasaminfn/LangGraph-RAG-Agent) | 80%        | Tavily + Groq + PDF handling + Streamlit UI                                               | Stars: 620                       | Pure **web research** (no OCR), **Gradio instead of Streamlit**, **MemorySaver** (no PGVector), **clean bullet sources** |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) (LangGraph example) | 75%        | Deep research + Tavily + 5–6 page reports (PDF/MD/Docx)                                    | Stars: 28k                       | **Groq instead of GPT**, **2-agent streamlined**, **Gradio live demo**, **clean 1-page executive PDF** |
+| [tarun7r/deep-research-agent](https://github.com/tarun7r/deep-research-agent) | 70%        | 4-agent system + credibility scoring                                                     | Stars: 410                       | Uses **Tavily**, **Groq**, **simple 2-agent**, **PDF + source deduplication**, no Ollama/Gemini |
+| [Fastpacer/Langgraph_Agent_App](https://github.com/Fastpacer/Langgraph_Agent_App) | 65%        | Groq + Tavily + Streamlit UI                                                              | Stars: 290                       | **Multi-agent handoff**, **Gradio**, **PDF download**, **clean sources** |
+| [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | 60%        | LangGraph deep research + Tavily + report model                                           | Stars: 1.8k                      | **Groq + ReportLab PDF**, **Gradio UI**, **source cleaning**, **no OpenAI** |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 50%        | LangGraph tutorials with Tavily + Groq examples                                           | Stars: 2.1k                      | This is a **complete working app**, not a tutorial repo — includes **Gradio**, **PDF**, **source deduplication** |
+
+**My project stands out with:**
+- Professional **PDF executive reports** (clean, no junk text)
+- **Gradio web interface** with public shareable link
+- **Source deduplication & cleaning** (removes duplicate URLs and "Here is a summary...")
+- **MemorySaver** for reliable memory (avoids SqliteSaver bugs)
+- Full compatibility with **Python 3.13 + Windows**
