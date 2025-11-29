@@ -36,7 +36,7 @@ You will find several projects in the open source but the below table shows how 
 | [tarun7r/deep-research-agent](https://github.com/tarun7r/deep-research-agent) | 4-agent system + credibility scoring                                                    | Uses **Tavily**, **Groq**, **simple 2-agent**, **PDF + source deduplication**, no Ollama/Gemini |
 | [Fastpacer/Langgraph_Agent_App](https://github.com/Fastpacer/Langgraph_Agent_App) | Groq + Tavily + Streamlit UI                                                              | **Multi-agent handoff**, **Gradio**, **PDF download**, **clean sources** |
 | [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) | LangGraph deep research + Tavily + report model                                           | **Groq + ReportLab PDF**, **Gradio UI**, **source cleaning**, **no OpenAI** |
-| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | LangGraph tutorials with Tavily + Groq examples                                          | This is a **complete working app**, not a tutorial repo — includes **Gradio**, **PDF**, **source deduplication** |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | LangGraph tutorials with Tavily + Groq examples                                          | The given repository is a tutorial repo, with multiple Agentic AI projects. My repo is a **complete working app** for one project, includes **Gradio**, **PDF**, **source deduplication** |
 
 **My project stands out with:**
 - Professional **PDF executive reports** (clean, no junk text)
